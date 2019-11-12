@@ -1,0 +1,2 @@
+# Feedback-Bot
+The question on everyone’s lips is: Are chatbots any better than surveys when it comes to collecting feedback? Presenting a traditional survey in a chat interface isn’t very high up on the innovation spectrum. The purpose of using chatbots rather than forms is to achieve a humanlike conversation with thousands of people simultaneously and to extract more qualitative data at the same scale as surveys.
