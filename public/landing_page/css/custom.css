@@ -1,0 +1,416 @@
+/*--Global CSS--*/
+img { width: 100%;}
+.padd-1x {padding:1em 0;}
+.section-pad {
+    padding: 2em 0;
+}
+/*--Global CSS--*/
+/*--Social--*/
+.social li {
+    float: left;
+    padding: 8px;
+}
+.footer-section ul {
+    list-style: none;
+}
+.p-l-0 {
+    padding-left: 0px;
+}
+.footer-section ul li a {
+    color: #848484;
+    text-decoration: none;
+    font-size: 15px;
+}
+/*--Social--*/
+/*--background--*/
+.contact-bg-pattern {
+    position: absolute;
+    width: 17%;
+    left: -16px;
+    bottom: 24em;
+    z-index: -1;
+    height: 80%;
+}
+.contact-bg-pattern-inverse {
+    position: absolute;
+    bottom: 0em;
+    right: -16px;
+    z-index: -1;
+    width: 10%;
+}
+.about-bg-pattern-inverse {
+    position: absolute;
+    bottom: -21em;
+    right: -16px;
+    z-index: -1;
+    height: 450px;
+    width: auto;
+}
+.about-bg-pattern {
+    top: 48%;
+    position: absolute;
+    width: 40%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 80%;
+}
+.about-bg-pattern  img, .about-bg-pattern-inverse  img {
+    height: 100%;
+    width: auto;
+}
+.featuresSection,.headerSection,.backgroundInverseSection,.contactSection,.techStack {
+    position: relative;
+    z-index: 1;
+}
+.background {
+    position: absolute;
+    height: 140px;
+    width: 3.5%;
+    background:url(../img/background_large.png);
+    left: 0;
+}
+/*--background--*/
+/*--Industry--*/
+.circlebg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/circle.png);
+    /* width: 50%; */
+}
+.industriesSection img:hover { box-shadow: 0px 0px 38px 2px #50a2f9;}
+.industryImage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+  .circlebg {
+     background-image: url("../img/circle.png");  
+  }
+  .industriesSection .col-md-6 {
+    padding: 3em 0;
+}
+.industriesSection img {
+    border-radius: 187px;
+    display: inherit;
+    width: 54%;
+    margin: 0 auto;
+}
+/*--Industry--*/
+/*--Sticky--*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 0 4px 6px 0 rgba(12,0,46,.06);
+    box-shadow: 0 4px 6px 0 rgba(12,0,46,.06);
+}
+nav#navbar {
+    background: #fff;
+    overflow: hidden;
+    padding: 1.5em 0;
+    z-index: 9999;
+}
+.col-md-6.headerContent {
+    padding: 7em 25px 25px 25px;
+}
+.sticky + .content {
+  padding-top: 500px;
+}
+.content {
+  padding: 16px;
+}
+/*--Sticky--*/
+/*--Contact--*/
+.contactAddress {
+    padding: 3em;
+}
+.col-md-6.contactForm {
+    box-shadow: 0 0 1px 0 #8484847a,0 2px 5px 0 #8484847a!important;
+    padding: 2em;
+}
+span#message {
+    margin: 0em 0 1em 0;
+    width: 100%;
+    background: none;
+    filter: none;
+    color: #000;
+}
+input[type=text], select, textarea ,input#password,input#email,input#phone,input#confirm_password{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background: linear-gradient(220deg,#45cafc,#303f9f)!important;
+    padding: 12px 27px;
+    color: #FFF;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*--Contact--*/
+.row.headerSec {
+    padding:4em 0 0 0;
+}
+/*Banner Image*/
+.text1, .text2, .text3 {
+    margin: 0px 0 10px 0;
+    border-radius: 21px;
+   /* min-width: 42px;*/
+    box-shadow: 0 1px 28px 0 rgba(90,60,122,.22);
+    padding: 15px 20px;
+}
+.text2 {  max-width: 67%;}
+.text1 {  max-width: 80%;}
+.text3 {  max-width: 47%;}
+.masgGif img {
+    width: 60%;
+    box-shadow: 0 1px 28px 0 rgba(90,60,122,.22);
+    min-width: 30px;
+     margin: 0px 0 10px 0;
+    border-radius: 30px;
+   
+    text-align: center;
+}
+.space1X {
+	padding: 1em 0;
+}
+/*Banner Image*/
+.btn1 {
+  
+    background: linear-gradient(220deg,#45cafc,#303f9f)!important;
+    padding: 12px 27px;
+    color: #FFF;
+    border-radius: 20px;
+}
+/*--Features Section--*/
+.col-md-4.imageProcess img {
+    padding: 2em 0 0 0;
+    width: 100%;
+}
+.Insights {
+     border-radius: 14px;
+     border: 1px solid #ccc;
+    padding: 2em;
+    margin: 1em 6em 0em 0em;
+}
+.ai {
+     color: #fff; 
+    border-radius: 14px;
+    border: 1px solid #ccc;
+    background: linear-gradient(220deg,#45cafc,#303f9f)!important;
+    padding: 2em;
+    border: 1px solid;
+    margin: 0em 2em 3em 4em;
+}
+.Insights:hover ,.liveChat:hover,.integration:hover{
+    color: #fff;
+     background: linear-gradient(220deg,#6f618e,#3791ff,#7e6da2)!important;
+}
+.liveChat {
+     border-radius: 14px;
+    border: 1px solid #ccc;
+    padding: 2em 3em;
+    margin: -3em 2em 0 4em;
+}
+.integration {
+    border-radius: 14px;
+    border: 1px solid #ccc;
+    padding: 2em;
+    margin: 4em 6em 3em 0em;
+}
+.col-md-6.industryContent {
+    padding: 6% 92px 0 0px;
+}
+.col-md-6.industryContent.leftContent {
+    padding: 11% 2px 20px 74px;
+}
+
+.featuresSection h4, .industriesSection h4 {
+    padding: 2em 0;
+}
+
+.featureSEc.text-right {
+    border-radius: 59% 20px;
+    /*background: #ececec;*/
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0px 4px 112px;
+}
+/*--Features Section--*/
+/*--Customer Review--*/
+.testimonial{ margin: 0 20px 50px; }
+.testimonial .pic{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 15px 15px 0;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.testimonial .testimonial-profile{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+.testimonial .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2f2f2f;
+    text-transform: capitalize;
+    margin: 0 0 7px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #5d7aa7;
+}
+.testimonial .description{
+    padding: 20px 22px;
+    background: linear-gradient(220deg,#6f618e,#3791ff,#7e6da2)!important;
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+    margin: 0;
+    position: relative;
+}
+.testimonial .description:before,
+.testimonial .description:after{
+    content: "";
+    border-width: 18px 0 0 18px;
+    border-style: solid;
+    border-color: #679eff transparent transparent;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+}
+.testimonial .description:after{
+    border-width: 18px 18px 0 0;
+    left: auto;
+    right: 0;
+}
+.owl-theme .owl-controls{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    opacity: 0.8;
+    background: #fff;
+}
+.contactSection.section-pad {
+    padding: 5em 0 5em 0em;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f053";
+    font-family: "FontAwesome"; 
+    font-weight: 900;
+    font-size: 20px;
+    color: #2e8bfd;
+}
+.owl-next:before{ content: "\f054"; }
+/*--Customer Review--*/
+/*--Footer--*/
+.footer-section ul li a {
+    color: #848484;
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer-section ul {
+    list-style: none;
+}
+/*--Footer--*/
+/*--Spinner--*/
+
+.gooey {
+    position: absolute;
+    width: 148px;
+    height: 40px;
+    margin: 13px 0 0 -49px;
+    background: white;
+    filter: contrast(20);
+}
+.gooey2 {
+    /*display: none;*/
+    position: absolute;
+    width: 148px;
+    height: 40px;
+    margin: 13px 0 0 -49px;
+    background: white;
+    filter: contrast(20);
+}
+.gooey3 {
+    /*display: none;*/
+    position: absolute;
+    width: 148px;
+    height: 40px;
+    margin: 13px 0 0 -49px;
+    background: white;
+    filter: contrast(20);
+}
+.gooey4 {
+    /*display: none;*/
+    position: absolute;
+    width: 148px;
+    height: 40px;
+    margin: 13px 0 0 -49px;
+    background: white;
+    filter: contrast(20);
+}
+  .dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 15px;
+    filter: blur(4px);
+    background: #000;
+    border-radius: 50%;
+    transform: translateX(0);
+    animation: dot 2.8s infinite;
+}
+  .dots{
+    transform: translateX(0);
+    margin-top: 12px;
+    margin-left: 31px;
+    animation: dots 2.8s infinite;
+}
+    span {
+          display: block;
+      float: left;
+      width: 16px;
+      height: 16px;
+      margin-left: 16px;
+      filter: blur(4px);
+      background: #000;
+      border-radius: 50%;
+}
+@keyframes dot {
+  50% {
+    transform: translateX(96px);
+}
+}
+@keyframes dots {
+  50%{
+    transform: translateX(-31px)
+}
+}
+/*--Spinner--*/

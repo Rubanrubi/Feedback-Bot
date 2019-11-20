@@ -36,6 +36,14 @@ return [
     */
 
     'guards' => [
+        'user' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+        'branch' => [
+            'driver' => 'session',
+            'provider' => 'branches',
+        ],
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
@@ -68,6 +76,10 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => App\User::class,
+        ],
+        'branches' => [
+            'driver' => 'eloquent',
+            'model' => App\Branch::class,
         ],
 
         // 'users' => [
